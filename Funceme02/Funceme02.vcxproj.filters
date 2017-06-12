@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Wx">
+      <UniqueIdentifier>{7f2b8802-e17b-4077-a856-af6c2930cba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Wx">
+      <UniqueIdentifier>{a725afbb-3bec-4b40-bcbf-7a1679d791d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{2d3d180c-2610-4853-8e17-e16d4a670953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{8f3810c4-46ab-4305-8e6d-2879274be279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controller">
+      <UniqueIdentifier>{0d5741b3-f12d-41e2-96ce-ae69e70d6f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller">
+      <UniqueIdentifier>{ee3d4074-5b4c-408f-82fd-d6581b4ca466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Wx\Forms">
+      <UniqueIdentifier>{b146d943-d30f-4a4f-96e6-89670dbb3158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Wx\Forms">
+      <UniqueIdentifier>{4819bbc9-25cf-491f-9b93-8647eeaaa837}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files\Wx</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFrame.h">
+      <Filter>Header Files\Wx</Filter>
+    </ClInclude>
+    <ClInclude Include="Reservoir.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ReservoirDriver.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ReservoirContainer.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateForm.h">
+      <Filter>Header Files\Wx\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="LiberationLanesForm.h">
+      <Filter>Header Files\Wx\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="LiberationLane.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityZone.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityUtils.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files\Wx</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFrame.cpp">
+      <Filter>Source Files\Wx</Filter>
+    </ClCompile>
+    <ClCompile Include="Reservoir.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ReservoirDriver.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="ReservoirContainer.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateForm.cpp">
+      <Filter>Source Files\Wx\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="LiberationLanesForm.cpp">
+      <Filter>Source Files\Wx\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="LiberationLane.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityZone.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityUtils.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
